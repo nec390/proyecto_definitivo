@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background: url("../imagenes/cyan.jpg");
+  background-position: center;
+}
+
+header>article{
+  background: lightblue;
+}
+header{
+  text-align: center;
+  font-size: 30pt;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nave{
+  width: 1000px;
+  margin:30px auto;
+  background: gray;
+}
+.nave ul{
+  list-style: none;
+}
+.menu>li{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+  .menu li a:hover{
+    color: black;
+    transition: all .3s;
+  }
+.menu>li>a{
+  display: block;
+  padding: 15px 20px;
+  color: lightcyan;
+
+
+}
+
+.submenu{
+  position: absolute;
+  background: lightgray;
+  width: 120%;
+  visibility: hidden;
+    opacity: 0;
+  transition: .5s;
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  Color:black;
+  text-decoration: none;
+
+
+}
+
+.menu li:hover .submenu{
+  visibility: visible;
+
+  opacity: 1;
+}
+
+#sub{
+  text-align: center;
+  margin-top: 50px;
+}
+#subusub{
+  text-align: center;
+  margin-top:10px;
+}
+
+
+.Empleados{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+#widget-1{
+  margin-bottom: 10px;
+}
+
+.Empleados>div{
+
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;;
+
+}
+
+aside{
+  display:block;
+  background: url("../imagenes/perfil.jpg");
+  width: 100px;
+  height: 100px;
+}
