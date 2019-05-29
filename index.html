@@ -2,26 +2,37 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dental</title>
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    <header>
+    <header >
+      <div class="contenedor-nav">
       <h1>Dental</h1>
-      <article class="logo"></article>
+      <!-- <article class="logo"></article> -->
+        <nav class="navegador">
+          <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicio</a>
+                <ul class="submenu">
+                  <li><a href="">Registrar cita</a></li>
+                  <li><a href="">Conocenos</a></li>
+                  <li><a href="">Precios</a></li>
+                </ul>
+            </li>
+            <li><a href="">Equipo</a></li>
+          </ul>
+        </nav>
+      </div>
       </header>
-      <nav>
-        <ul>
-          <li>Citas</li>
-          <li>Contactanos</li>
-          <li>Registrate</li>
-        </ul>
-      </nav>
+      <div id="contenedor2">hola</div>
       <div id="contenedor">
-        <article></article>
-        <article></article>
-        <article></article>
+        <video width="100%" src="video/dental.mp4" autoplay loop muted >
+
+        </video>
       </div>
       <div id="imagen"></div>
+      <footer>pagina dental </footer>
   </body>
 </html>

@@ -1,68 +1,136 @@
 *{
   box-sizing: border-box;
+
 }
 body{
   height: 100vh;
-  background-color: rgb(66, 50, 251);
+  margin: 0;
 }
 header{
   width: 100%;
-  height: 30%;
-  background: rgb(34, 208, 236);
-  display: inline-flex;
-  justify-content: space-between;
-  border-radius: 20px;
+  height: 15%;
+  background: rgba(61, 154, 203, 0.75);
+  /* display: grid;
+  grid-template-columns: auto auto; */
+
+
+
+
+}
+header a{
+  color: rgb(249, 248, 247);
+  text-decoration: none;
 }
 h1{
   color: rgb(17, 17, 19);
   font-size: 3em;
   font-style: italic;
   font-family:serif;
+  margin-left: 0;
 }
-nav{
-  width: 100%;
-  height: 10%;
-  background-color: rgb(8, 41, 172);
-
-
-}
-li{
-  list-style: none;
-  background: rgb(20, 209, 240);
-  display:inline-block;
-  padding: 0.5rem;
+.contenedor-nav{
+  display: flex;
   justify-content: space-between;
-  height: 20%;
-  width: 30%;
-  margin: 1% 1%;
-  text-align: center;
-  font-family: century gothic;
-  font-style: oblique;
-  font-weight: bold;
+
 }
-li:hover{
-  background:rgb(127, 15, 154);
-  opacity: 0.7;
-  transition: 0.8s;
-  color: rgb(250, 247, 251);
+.navegador ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+.navegador ul li {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 2%;
+  color: rgb(17, 17, 19);
+  font-style: italic;
+  font-family:serif;
+}
+.navegador ul li a{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+.menu > li > a{
+  font-size: 2em;
+}
+
+.navegador ul li a:hover{
+  background: rgba(54, 238, 205, 0.79);
+}
+ .navegador{
+  width: 100%;
+  height:20%;
+  text-align: center;
+
+}
+.navegador ul{
+  list-style: none;
+
+}
+/* .menu > li{
+  position: relative;
+  display: inline-block;
+  padding: 30px 30px;
+  margin: 0% 5%;
+  border-bottom: 10%;
+  transition: all .3s;
+} */
+/* .navegador .menu ul li a:hover{
+  color: rgb(237, 213, 15);
+  transition: all .3s;
+} */
+.submenu{
+  display: none;
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  transition: all 0.4s;
+  /* background-color: rgb(102, 246, 238); */
+
+}
+.submenu li a{
+  display: block;
+  padding: 10% 12%;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  background: rgba(205, 208, 209, 0.64);
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: rgb(4, 1, 9);
+}
+
+.menu li:hover .submenu {
+  color: rgb(237, 213, 15);
+  display: block;
+}
+footer{
+  width: 100%;
+  height: 20%;
+  background: rgba(86, 196, 254, 0.74);
+  align-items: center;
+  text-align: center;
+  margin: 0;
 }
 #contenedor{
-  height: 80%;
-  width: 100%;
-  background-image: url("../imagenes/dental3.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  margin: 0;
 }
-.logo{
-  background: rgb(42, 193, 94);
-  background-repeat: no-repeat;
+#imagen{
+  width: 100%;
+  height: 30%
+}
+#contenedor2{
+  height: 90%;
+  background-image: url("../imagenes/logo.jpg");
   background-position: center;
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  margin: .5% .5%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+}
+video{
+  position:sticky;
 }
