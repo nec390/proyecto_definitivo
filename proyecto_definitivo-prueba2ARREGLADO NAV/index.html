@@ -5,36 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dental</title>
     <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </head>
-  <body>
-    <header >
-        <h1>Dental</h1>
+  <body class="wow fadeOutDown " data-wow-duration="1s" >
+    <header class="wow fadeInDown" data-wow-delay="2s" data-wow-duration="2s">
+      <a href=""><h1>Dental</h1></a>
         <nav class="navegador">
-          <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicio</a>
-                <ul class="submenu">
-                  <li><a href="">Registrar cita</a></li>
-                  <li><a href="">Conocenos</a></li>
-                  <li><a href="">Precios</a></li>
-                </ul>
-            </li>
-            <li><a href="">Equipo</a></li>
-          </ul>
-        </nav>
+              <ul class="menu">
+                <li><a class="botoninicio" href="#">Inicio</a></li>
+                <li class="botonLi"><a class="botoninicio" href="#">Servicio</a>
+                    <ul class="wow fadeInLeft  submenu">
+                      <li><a href="">Registrar cita</a></li>
+                      <li><a class="boton3" href="">Conocenos</a></li>
+                      <li><a class="boton3" href="">Precios</a></li>
+                    </ul>
+                </li>
+                <li><a class="botoninicio" href="">Equipo</a></li>
+              </ul>
+            </nav>
       </header>
+      <section class="imagen15 wow fadeInLeft" data-wow-delay="1.5s"  id="">
+        <article></article>
+        <article></article>
+        <article></article>
 
 
-      <!-- <article class="logo"></article> -->
 
+      </section>
 
-      <div id="contenedor2">hola</div>
-      <div id="contenedor">
-        <video width="100%" src="video/dental.mp4" autoplay loop muted >
-
+        <video  width="100%"  autoplay loop muted >
+          <source class="" src="video/dental.mp4" type="video/mp4">
         </video>
+
+      <div class=" imagen wow fadeInRight" data-wow-duration="2s">
+        <article></article>
+        <article></article>
+        <article></article>
+
+        <footer class="wow fadeInUp">pagina dental
+          <article></article>
+          <article></article>
+          <article></article>
+         </footer>
       </div>
-      <div id="imagen"></div>
-      <footer>pagina dental </footer>
+
   </body>
 </html>

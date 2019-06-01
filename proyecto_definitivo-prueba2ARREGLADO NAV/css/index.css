@@ -2,19 +2,23 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 body{
   height: 100vh;
   margin: 0;
+  background: url("../imagenes/diente2.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20% 30%;
 }
 header{
   width: 100%;
   height: 15%;
-  background: rgba(61, 154, 203, 0.75);
- display: grid;
+  background: rgba(0, 5, 8, 0.75);
+  display: grid;
   grid-template-columns: auto auto;
-
-
+  position: absolute;
 
 
 }
@@ -22,23 +26,20 @@ header a{
   color: rgb(249, 248, 247);
   text-decoration: none;
 }
-h1{
-  color: rgb(17, 17, 19);
+header a h1{
+  color: rgba(21, 241, 247, 0.59);
   font-size: 3em;
   font-style: italic;
-  font-family:serif;
+  /* font-family:serif; */
+  margin-top: 3%;
   margin-left: 0;
+  letter-spacing: 5px;
+  text-align: center;
+
 }
 .navegador{
-  width: 1000px;
-  margin-bottom: : 10px;
-
-}
-.navegador ul{
-
-  list-style: none;
-
-
+  width: 100%;
+  height: 100%;
 }
 
 .menu>li{
@@ -53,10 +54,10 @@ h1{
   margin-left: 15%;
   margin-top: 2%;
   color: rgb(17, 17, 19);
-  font-style: italic;
-  font-family:serif;
+  /* font-style: italic; */
+  /* font-family:serif; */
 }
-.navegador ul li a{
+.botoninicio{
   display: block;
   padding: 0.5rem 1rem;
   transition: all 0.4s linear;
@@ -69,38 +70,30 @@ h1{
 }
 
 .navegador ul li a:hover{
-  background: rgba(54, 238, 205, 0.79);
+  background: rgba(21, 241, 247, 0.59);
+  color: rgba(0, 0, 0, 0.85);
 }
- .navegador{
-  width: 100%;
-  height:20%;
-  text-align: center;
 
-}
 .navegador ul{
   list-style: none;
 
 }
-/* .menu > li{
+
+.botonLi{
   position: relative;
-  display: inline-block;
-  padding: 30px 30px;
-  margin: 0% 5%;
-  border-bottom: 10%;
-  transition: all .3s;
-} */
-/* .navegador .menu ul li a:hover{
-  color: rgb(237, 213, 15);
-  transition: all .3s;
-} */
+}
 .submenu{
   display: none;
   position: absolute;
-  height: 30%;
-  width: 15%;
+  height: 100%;
+  width: 100%;
   transition: all 0.4s;
   /* background-color: rgb(102, 246, 238); */
-
+  margin-right: 10%;
+}
+.submenu li {
+  width: 100%;
+  height: 100%;
 }
 .submenu li a{
   display: block;
@@ -111,6 +104,10 @@ h1{
   font-size: 1.5em;
   border-radius: 5px;
   color: rgb(4, 1, 9);
+  width: 100%;
+}
+.boton3{
+  margin-top: 10%;
 }
 
 .menu li:hover .submenu {
@@ -120,21 +117,26 @@ h1{
 footer{
   width: 100%;
   height: 20%;
-  background: rgba(86, 196, 254, 0.74);
+  background: rgba(86, 196, 254, 0.57);
   align-items: center;
   text-align: center;
   margin: 0;
+  position:absolute;
+  bottom: 0%;
 }
-#contenedor{
-  margin: 0;
-}
-#imagen{
+
+.imagen{
   width: 100%;
-  height: 30%
+  height: 100%;
+  background-image: url("../imagenes/dental.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 #contenedor2{
   height: 90%;
-  background-image: url("../imagenes/logo.jpg");
+  background-image: url("../imagenes/dental2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -142,4 +144,21 @@ footer{
 }
 video{
   position:sticky;
+
+}
+#imagen2{
+  width: 100%;
+  height: 100%;
+}
+.imagen15{
+  height: 100%;
+  width: 100%;
+  background-image: url("../imagenes/dental2.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+
+}
+.imagen123{
+  height: 100%;
+  width: 100%;
 }
