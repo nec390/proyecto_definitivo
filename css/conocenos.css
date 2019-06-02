@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+body{
+  height: 100vh;
+  background: url("../imagenes/dentistaSM.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+header{
+  width: 100%;
+  height: 15%;
+  background: rgba(0, 5, 8, 0.75);
+  display: grid;
+  grid-template-columns: auto auto;
+  position: absolute;
+
+
+}
+header a{
+  color: rgb(249, 248, 247);
+  text-decoration: none;
+}
+header a h1{
+  color: rgba(21, 241, 247, 0.59);
+  font-size: 3em;
+  font-style: italic;
+  /* font-family:serif; */
+  margin-top: 3%;
+  margin-left: 0;
+  letter-spacing: 5px;
+  text-align: center;
+
+}
+.navegador{
+  width: 100%;
+  height: 100%;
+}
+
+.menu>li{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  }
+
+.navegador ul li {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 2%;
+  color: rgb(17, 17, 19);
+  /* font-style: italic; */
+  /* font-family:serif; */
+}
+.botoninicio{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+.menu > li > a{
+  font-size: 2em;
+}
+
+.navegador ul li a:hover{
+  background: rgba(21, 241, 247, 0.59);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.navegador ul{
+  list-style: none;
+
+}
+
+.botonLi{
+  position: relative;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  /* background-color: rgb(102, 246, 238); */
+  margin-right: 10%;
+}
+.submenu li {
+  width: 100%;
+  height: 100%;
+}
+.submenu li a{
+  display: block;
+  padding: 10% 12%;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  background: rgba(205, 208, 209, 0.64);
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: rgb(4, 1, 9);
+  width: 100%;
+}
+.boton3{
+  margin-top: 10%;
+}
+
+.menu li:hover .submenu {
+  color: rgb(237, 213, 15);
+  display: block;
+}
+#contenedor  h1{
+  color: rgba(21, 241, 247, 0.59);
+  font-size: 3em;
+  font-style: italic;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  letter-spacing: 5px;
+  text-align:left;
+}
+#contenedor{
+  display:inline-block;
+  justify-content:flex-start;
+  height: 40%;
+  width: 60%;
+  background:rgb(0, 0, 0);
+  opacity: 0.8;
+  border-radius: 20px;
+  color:rgb(251, 249, 251);
+  margin-top: 12%;
+  margin-left: 3%;
+}
+p{
+  margin-left: 3%;
+}
