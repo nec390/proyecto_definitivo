@@ -14,26 +14,27 @@
   </head>
   <body class="wow fadeOutDown " data-wow-duration="1s" >
     <header class="wow fadeInDown" data-wow-delay="2s" data-wow-duration="2s">
-      <a href=""><h1>Dental</h1></a>
+      <a href="index.html"><h1>Dental</h1></a>
         <nav class="navegador">
               <ul class="menu">
                 <li><a class="botoninicio" href="#">Inicio</a></li>
-                <li class="botonLi"><a class="botoninicio" href="#">Servicio</a>
-                    <ul class="wow fadeInLeft  submenu">
-                      <li><a href="">Registrar cita</a></li>
-                      <li><a class="boton3" href="">Conocenos</a></li>
-                      <li><a class="boton3" href="">Precios</a></li>
-                    </ul>
-                </li>
-                <li><a class="botoninicio" href="">Equipo</a></li>
+                <li><a onmouseover="despeglarMenu()"  class="botoninicio" href="#">Servicio</a></li>
+                <li><a class="botoninicio" href="conocenos.html" >Conocenos</a></li>
               </ul>
             </nav>
       </header>
-      <section class="imagen15 wow fadeInLeft" data-wow-delay="1.5s"  id="">
-        <article></article>
-        <article></article>
-        <article></article>
+      <section class="fondo1 wow fadeInLeft" data-wow-delay="1.5s"  id="">
 
+        <div class="menu_opc " onmouseover="despeglarMenu()" onmouseout="quitarMenu()" id="menu1">
+          <article  class="boton1 wow fadeIn" data-wow-duration="2s"  id="cita">
+            <a href="Dental.html"><img src="imagenes/calendario.png" class="boton_cita"></a>
+            <h2>Registrar cita</h2>
+          </article>
+          <article onmouseout="quitarMenu()" class="boton1 wow fadeIn" data-wow-duration="2s" >
+            <a href="Trabajadores.html"><img src="imagenes/dentista.png" class="boton_cita2"></a>
+            <h2>Conoce a nuestro equipo</h2>
+          </article>
+        </div>
 
 
       </section>

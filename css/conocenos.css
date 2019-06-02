@@ -1,66 +1,16 @@
 *{
   box-sizing: border-box;
-  text-align: center;
+  margin: 0px;
+  padding: 0px;
   font-family: Tahoma, Geneva, sans-serif;
 }
 body{
-  background-image: url("../imagenes/dental3.jpg");
+  height: 100vh;
+  background: url("../imagenes/dentistaSM.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
+  background-position: center;
   position: relative;
-}
-#contenedor{
-  display:inline-block;
-  justify-content:flex-start;
-  height: 80%;
-  width: 35%;
-  background:rgb(0, 0, 0);
-  opacity: 0.8;
-  border-radius: 20px;
-  color:rgb(251, 249, 251);
-  margin-top: 9%;
-
-}
-form{
-  display: block;
-  height: 100%;
-  align-items: center;
-  margin-left: 15%;
-  margin-top: 10%;
-  margin-right: 16%;
-}
-section{
-  height: 100%;
-  width: 100%;
-}
-input{
-  margin: 5% 2%;
-  height: 8%;
-  width: 200%;
-}
-
-.inputs{
-  display: block;
-  margin-top: 10%;
-  width: 50%;
-  height: 96%;
-  margin-right: 20%;
-}
-
-#enviar{
-  width: 100%;
-  height: 5%;
-  text-align: center;
-  background-color:rgb(55, 224, 241);
-  color: rgb(5, 0, 0);
-  border: 1px;
-  margin-left: 50%;
-}
-#enviar:hover{
-  background-color: rgb(250, 242, 246);
-  color: rgb(1, 4, 11);
 }
 
 header{
@@ -81,6 +31,7 @@ header a h1{
   color: rgba(21, 241, 247, 0.59);
   font-size: 3em;
   font-style: italic;
+  /* font-family:serif; */
   margin-top: 3%;
   margin-left: 0;
   letter-spacing: 5px;
@@ -102,8 +53,10 @@ header a h1{
 .navegador ul li {
   display: inline-block;
   margin-left: 15%;
+  margin-top: 2%;
   color: rgb(17, 17, 19);
-
+  /* font-style: italic; */
+  /* font-family:serif; */
 }
 .botoninicio{
   display: block;
@@ -134,8 +87,9 @@ header a h1{
   display: none;
   position: absolute;
   height: 100%;
-  width: 120%;
+  width: 100%;
   transition: all 0.4s;
+  /* background-color: rgb(102, 246, 238); */
   margin-right: 10%;
 }
 .submenu li {
@@ -160,4 +114,28 @@ header a h1{
 .menu li:hover .submenu {
   color: rgb(237, 213, 15);
   display: block;
+}
+#contenedor  h1{
+  color: rgba(21, 241, 247, 0.59);
+  font-size: 3em;
+  font-style: italic;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  letter-spacing: 5px;
+  text-align:left;
+}
+#contenedor{
+  display:inline-block;
+  justify-content:flex-start;
+  height: 40%;
+  width: 60%;
+  background:rgb(0, 0, 0);
+  opacity: 0.8;
+  border-radius: 20px;
+  color:rgb(251, 249, 251);
+  margin-top: 12%;
+  margin-left: 3%;
+}
+p{
+  margin-left: 3%;
 }

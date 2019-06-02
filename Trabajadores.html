@@ -3,76 +3,63 @@
   <head>
     <meta charset="utf-8"/>
     <title>Trabajadores</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/Trabajadores.css">
-
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Ubuntu&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/Trabajadores.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <script type="text/javascript" src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
   </head>
 
 
-  <body>
-    <header>
-      <article><h1>Consultorio Dental Fulano</h1><article>
-      </header>
-      <nav class="nave">
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Acerca de</a>
-                      <ul class="submenu">
-                           <li><a href="#">Contacto</a></li>
-                           <li><a href="#">Nuestro Equipo</a></li>
-                           <li><a href="#">Nosotros</a></li>
-                      </ul>
-          </li>
-          <li><a href="#">Servicios</a></li>
-          </ul>
-      </nav>
-          <h1 id="sub">Nuestro Equipo</h1>
-          <h2 id="subusub"> Deje su sonrisa en nuestras manos</h2>
+    <body>
+      <header class="wow fadeInDown"  data-wow-duration="1.5s">
+          <a href="index.html"><h1>Dental</h1></a>
+            <nav class="navegador">
+                  <ul class="menu">
+                    <li><a class="botoninicio" href="index.html">Inicio</a></li>
+                    <li class="botonLi"><a class="botoninicio" href="#">Servicio</a>
+                        <ul class="wow fadeInLeft  submenu">
+                          <li><a href="#">Registrar cita</a></li>
+                          <li><a class="boton3" href="Trabajadores.html">Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="botoninicio" href="conocenos.html">Conocenos</a></li>
+                  </ul>
+                </nav>
+          </header>
     <div class="Empleados">
-
-     <main class="contenido">
-
-       </main>
-
-       <div id="widget-1" class="dentista">
-         <article class="datos">
-           <h3>Doctor A</h3>
-           <p> Especialidad en xxxxxx</p>
-            <p> Egresado de xxxxxxx</p>
-            <p> Con experiencia en xxxxx</p>
-         </article>
-
-          <aside>
-            </aside>
+       <div id="widget-1" class="dentista wow fadeInLeft" data-wow-delay="1s"  >
+             <article class="datos">
+              <h3>Doctor A</h3>
+               <p> Especialidad en xxxxxx</p>
+               <p> Egresado de xxxxxxx</p>
+               <p> Con experiencia en xxxxx</p>
+             </article>
+                <aside>
+                </aside>
          </div>
-         <div id="widget-2" class="dentista">
-           <article class="datos">
-             <h3>Doctor B</h3>
-             <p> Especialidad en xxxxxx</p>
-              <p> Egresado de xxxxxxx</p>
-              <p> Con experiencia en xxxxx</p>
-           </article>
-            <aside>
-              </aside>
-                          </div>
-                          <div id="widget-3" class="dentista">
+             <div id="widget-2" class="dentista wow fadeInLeft" data-wow-delay="1.2s">
+                 <article class="datos">
+                   <h3>Doctor B</h3>
+                    <p> Especialidad en xxxxxx</p>
+                    <p> Egresado de xxxxxxx</p>
+                    <p> Con experiencia en xxxxx</p>
+                 </article>
+                      <aside>
+                      </aside>
+             </div>
+                          <div id="widget-3" class="dentista wow fadeInLeft" data-wow-delay="1.4s">
                             <article class="datos">
                               <h3>Doctor C</h3>
-                              <p> Especialidad en xxxxxx</p>
+                               <p> Especialidad en xxxxxx</p>
                                <p> Egresado de xxxxxxx</p>
                                <p> Con experiencia en xxxxx</p>
                             </article>
-                             <aside>
+                               <aside>
                                </aside>
-
-                            </div>
-
-
-
-
-
-       </div>
-
-
-</body>
-  </html>
+                         </div>
+      </div>
+    </body>
+</html>

@@ -5,24 +5,43 @@
     <title>Dental</title>
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/Dental.css">
-
+  <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </head>
-  <header>
-    <article><h1>Consultorio Dental Fulano</h1><article>
-    </header>
-
-  <body>
-    <form>
-
-      <h1>Agende su cita</h1>
-      <input type="text" maxlength="20" placeholder="Nombre del paciente"/>
-      <input type="text" maxlength="20" placeholder="Edad"/>
-      <input type="text" maxlength="20" placeholder="Telefono"/>
-      <input type="text" maxlength="30" placeholder="E-mail"/>
-      <input type="text" maxlength="30" placeholder="Direccion"/>
-      <input type="date" placeholder="Fecha sugerida"/>
-      <button type="button"> Registrar</button>
-
-
-       </form>
+  <body >
+  <header class="wow fadeInDown"  data-wow-duration="1.5s">
+      <a href="index.html"><h1>Dental</h1></a>
+        <nav class="navegador">
+              <ul class="menu">
+                <li><a class="botoninicio" href="index.html">Inicio</a></li>
+                <li class="botonLi"><a class="botoninicio" href="#">Servicio</a>
+                    <ul class="wow fadeInLeft  submenu">
+                      <li><a href="#">Registrar cita</a></li>
+                      <li><a class="boton3" href="Trabajadores.html">Equipo</a></li>
+                    </ul>
+                </li>
+                <li><a class="botoninicio" href="conocenos.html">Conocenos</a></li>
+              </ul>
+            </nav>
+      </header>
+      <div class=" wow fadeInLeft"  data-wow-delay="1.5s" data-wow-duration="2s" id="contenedor">
+          <section >
+            <form class="" action="index.html" method="post">
+            <article class="inputs">
+              <input type="text" maxlength="30" placeholder="Apellidos"/>
+              <input type="text" maxlength="30" placeholder="Nombre(s)"/>
+              <input type="number" maxlength="2" placeholder="Edad"/>
+              <input type="tel" maxlength="12" placeholder="Telefono"/>
+              <input type="email" maxlength="30" placeholder="E-mail"/>
+              <input type="text" maxlength="30" placeholder="Direccion"/>
+              <input type="date" placeholder="Fecha sugerida"/>
+              <input type="submit" name="enviar" value="Enviar" id="enviar"/>
+              </article>
+            </form>
+          </section>
+        </div>
+       </body>
   </html>
