@@ -29,15 +29,14 @@
       </header>
       <div class=" wow fadeInLeft"  data-wow-delay="1.5s" data-wow-duration="2s" id="contenedor">
           <section >
-            <form class="" action="index.html" method="post">
+            <form class="" action="php/formulario.php" method="post">
             <article class="inputs">
-              <input type="text" maxlength="30" placeholder="Apellidos"/>
-              <input type="text" maxlength="30" placeholder="Nombre(s)"/>
-              <input type="number" maxlength="2" placeholder="Edad"/>
-              <input type="tel" maxlength="12" placeholder="Telefono"/>
-              <input type="email" maxlength="30" placeholder="E-mail"/>
-              <input type="text" maxlength="30" placeholder="Direccion"/>
-              <input type="date" placeholder="Fecha sugerida"/>
+              <input type="text" name="apellido" maxlength="30" placeholder="Apellidos" required>
+              <input type="text" name="nombre" maxlength="30" placeholder="Nombre(s)" required>
+              <input type="number" name="edad" maxlength="2" placeholder="Edad" required>
+              <input type="tel" name="telefono" maxlength="12" placeholder="Telefono" required>
+              <input type="email" name="email" maxlength="55" placeholder="E-mail" required>
+              <input type="date" name="fecha" placeholder="Fecha sugerida" required>
               <input type="submit" name="enviar" value="Enviar" id="enviar"/>
               </article>
             </form>
